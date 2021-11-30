@@ -1,0 +1,23 @@
+version: '3'
+services:
+
+  nginx:
+    build: docker/nginx
+    links:
+      - php
+    ports:
+      - "9090:80"
+    volumes:
+      - ./app:/app
+    depends_on:
+      - php
+  php:
+    build: docker/php
+    volumes:
+      - ./app:/app
+    working_dir: /app
+    command: chown -R :www-data /app
+    command: chmod -R 777 /app
+    command: php-fpm
+    ports:
+      - "9005:9000"

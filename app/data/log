@@ -1,0 +1,65 @@
+
+{
+    "eventName": "Car driving on road",
+    "eventObject": {
+        "direction": "bottom",
+        "plannedManeur": "right",
+        "position": 11,
+        "speed": 5,
+        "state": "accelerate"
+    },
+    "linkedObjectsData": {
+        "road": {
+            "transformation": "vertical",
+            "direction": "bottom"
+        }
+    }
+}
+{
+    "eventName": "Car driving on road",
+    "eventObject": {
+        "direction": "top",
+        "plannedManeur": "right",
+        "position": 11,
+        "speed": 5,
+        "state": "accelerate"
+    },
+    "linkedObjectsData": {
+        "road": {
+            "transformation": "vertical",
+            "direction": "top"
+        }
+    }
+}
+{
+    "eventName": "Car driving on road",
+    "eventObject": {
+        "direction": "left",
+        "plannedManeur": "left",
+        "position": 11,
+        "speed": 5,
+        "state": "accelerate"
+    },
+    "linkedObjectsData": {
+        "road": {
+            "transformation": "horizontal",
+            "direction": "left"
+        }
+    }
+}
+{
+    "eventName": "Car driving on road",
+    "eventObject": {
+        "direction": "right",
+        "plannedManeur": "right",
+        "position": 11,
+        "speed": 5,
+        "state": "accelerate"
+    },
+    "linkedObjectsData": {
+        "road": {
+            "transformation": "horizontal",
+            "direction": "right"
+        }
+    }
+}
